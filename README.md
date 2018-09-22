@@ -87,6 +87,12 @@ We suggest that you begin by typing:
 
 ==> yarn add semantic-ui-react semantic-ui-css
 
+
+Add material-ui
+https://github.com/mui-org/material-ui
+
+==> yarn add @material-ui/core
+
 //------------------------------------------------------------------------------------------------------------------------------------
 
 

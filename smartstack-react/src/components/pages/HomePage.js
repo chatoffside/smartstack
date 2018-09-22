@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
+import Header from './Header';
 
 const HomePage = () => (
+    
     <div>
+        <Header/>
         <h1>HomePage</h1>
+        <Button color="inherit">Loginx</Button>
         <Link to="/">Home</Link>
         &nbsp;
         <Link to="/login">Login</Link>
