@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HomePage = () => (
+const LoginPage = () => (
     <div>
-        <h1>HomePage</h1>
+        <h1>Login</h1>
         <Link to="/">Home</Link>
         &nbsp;
         <Link to="/login">Login</Link>
@@ -34,4 +34,4 @@ const HomePage = () => (
         </div>
     </div>
 );
-export default HomePage;
+export default LoginPage;
