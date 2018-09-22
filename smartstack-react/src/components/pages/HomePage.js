@@ -7,13 +7,9 @@ const HomePage = () => (
     
     <div>
         <Header/>
-        <h1>HomePage</h1>
-        <Button color="inherit">Loginx</Button>
-        <Link to="/">Home</Link>
-        &nbsp;
-        <Link to="/login">Login</Link>
+        <Button color="inherit">Login</Button>
         <div className="main-container">
-            <h1>Bid for the property you wish to invest in and earn ROI in Ether</h1>
+            <h1>Select the property you wish to invest in and earn ROI in Ether</h1>
             <div className="block">
                <h4>Timer:</h4> &nbsp;
                <span> this.state.timer</span>

@@ -17,8 +17,12 @@ const growStyle = {
 const menuButtonStyle = {
     marginLeft: -12,
     marginRight: 20, 
+    color: "#ffffff",
 };
 
+const headerTextColorStyle = {
+    color: "#ffffff"
+};
 
 class Header extends Component {
     render() {
@@ -26,14 +30,14 @@ class Header extends Component {
             <div>
             <AppBar position="static">
                 <Toolbar>
-                  <IconButton style={menuButtonStyle} color="inherit" aria-label="Menu">
+                  <IconButton style={menuButtonStyle} color="default" aria-label="Menu">
                     <MenuIcon />
                   </IconButton>
                   <Typography variant="title" color="inherit" style={growStyle}>
-                    <Link to="/">SmartStack</Link>
+                    <Link to="/" style={headerTextColorStyle} >SmartStack</Link>
                   </Typography>
                   
-                  <Link to="/login">Login</Link>
+                  <Link to="/login" style={headerTextColorStyle} >Login</Link>
                 </Toolbar>
               </AppBar>
              

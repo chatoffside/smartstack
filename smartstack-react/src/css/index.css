@@ -1,5 +1,5 @@
 body{
-    font-family: 'open sans';
+    /* font-family: 'open sans'; *//
     margin: 0;
 }
 ul{
@@ -22,7 +22,7 @@ li:active{
     opacity: 0.7;
 }
 *{
-   color: #444444;
+   /* color: #444444; */
 }
 .main-container{
    padding: 20px;

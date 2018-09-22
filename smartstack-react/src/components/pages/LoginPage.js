@@ -6,10 +6,11 @@ import Header from './Header';
 const LoginPage = () => (
     <div>
         <Header/>
+
+        <div className="main-container">
         <Link to="/">Home</Link>
         &nbsp;
         <Link to="/login">Login</Link>
-        <div className="main-container">
             <LoginForm/>
         </div>
     </div>

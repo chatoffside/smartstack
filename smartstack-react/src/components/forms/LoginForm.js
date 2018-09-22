@@ -16,7 +16,7 @@ class LoginForm extends Component {
                <Form.Field>
                    <label htmlFor=""></label>
                </Form.Field>
-               <Button variant="raised" color="primary">Login</Button>
+               <Button variant="raised" color="white">Login</Button>
            </Form>
         );
     }
