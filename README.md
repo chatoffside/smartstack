@@ -85,6 +85,8 @@ We suggest that you begin by typing:
 
 ==> yarn add react-router-dom
 
+==> yarn add semantic-ui-react semantic-ui-css
+
 //------------------------------------------------------------------------------------------------------------------------------------
 
 
