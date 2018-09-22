@@ -19,7 +19,7 @@ const HomePage = () => (
                <span>this.state.lastWinner</span>
             </div>
             <hr/>
-            <h2>Vote for the next number</h2>
+            <h2>Select the property you wish to invest in and earn ROI in Ether</h2>
             <ul>
                <li onClick={() => {this.voteNumber(1)}}>1</li>
                <li onClick={() => {this.voteNumber(2)}}>2</li>
